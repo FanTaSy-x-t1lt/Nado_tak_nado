@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+  int a, b;
+  std::cout <<"Give me money";
+  std::cin >> a;
+  std::cout <<"More money";
+  std::cin >> b;
+  int sum = a + b;
+  std::cout <<"MOOORE"<< a <<"AND"<< b <<"MOOOORE"<< sum << std::endl;
+  return 0;
+}
